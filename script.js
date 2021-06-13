@@ -12,13 +12,13 @@ select.onchange = function() {
  }
 
  createCalendar(days, choice);
-}
+};
 
 function createCalendar(days, choice) {
  list.innerHTML = '';
  h2.textContent = choice;
  for(let i = 1; i <= days; i++) {
- var listItem = document.createElement('li');
+let listItem = document.createElement('li');
  listItem.textContent = i;
  list.appendChild(listItem);
  }

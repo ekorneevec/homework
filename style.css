@@ -11,7 +11,30 @@ h2 {
     font-size: 20px;
 }
 
-li {
-    width: 20px;
-    background-color: burlywood;
+li + li {
+    box-shadow:-4px 0px rgba(255,255,255,0.4) 
 }
+
+body {
+    text-align:center;
+}
+
+nav {  
+  background:orange linear-gradient(orange,lime);  
+  white-space:nowrap;
+}
+nav ul, li {
+  display:inline-block;
+}
+nav, ul , li {
+  margin:2px 0;
+  padding:0 1em;
+  line-height:2em;
+}
+
+li:hover {
+  background:white;
+}
+code { background:#0976B8;color:white;padding:2px;text-shadow:0 0 1px black;
+}
+img {vertical-align:middle;}

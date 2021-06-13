@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+    text-shadow: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+h2 {
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+ul {
+    width: 20px;
+    background-color: burlywood;
+}
